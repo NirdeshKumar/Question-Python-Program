@@ -55,3 +55,19 @@ class Employee():
     
         else:
             print("Invalid ID")
+            
+                       
+ram=Employee("Ram","RAm128",23000,"Sales")
+rani=Employee("Rani","RAn129",23500,"Sales")
+soni=Employee("Soni","SOn130",23000,"Sales")
+shiv=Employee("Shivam","SHi131",23500,"Sales")
+
+mohan=Employee("Mohan","MOh124",25000,"Accountence")
+ramesh=Employee("Ramesh","RAm125",25000,"Accountence")
+suresh=Employee("Suresh","SUr126",25000,"Accountence")
+anshika=Employee("Anshika","ANs127",25000,"Accountence")
+
+siddharth=Employee("Siddharth","SId132",45000,"Fronted Developer")
+shivansh=Employee("Shivansh","SHi133",45000,"Fronted Developer")
+nirdesh=Employee("Nirdesh","NIr134",45000,"Fronted Developer")
+ 
