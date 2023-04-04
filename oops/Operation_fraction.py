@@ -16,6 +16,10 @@ class fraction:
         self.temp=self.num*other.den+other.num*self.den
         self.temp2=self.den*other.den
         return ("{}/{}".format(self.temp,self.temp2))
-
+    
+    def __mul__(self,other):
+        self.temp=(self.num*other.num)
+        self.temp2=(self.den*other.den)
+        return ("{}/{}".format(self.temp,self.temp2))
 
 
