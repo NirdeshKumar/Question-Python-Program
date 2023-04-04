@@ -2,7 +2,7 @@
 """
 1. Write a Python class Employee with attributes like emp_id, emp_name, emp_salary,
 and emp_department and methods like calculate_emp_salary, emp_assign_department,
-and print_employee_details. Go to the editor
+and print_employee_details.
 
 Sample Employee Data:
 "ADAMS", "E7876", 50000, "ACCOUNTING"
