@@ -14,13 +14,13 @@ class Atm():
         user=int(input("Hi, Please Choose Your Option "))
 
         if(user==1):
-            self.Create()
+            self.create()
 
         elif(user==2):
-            self.Deposit()
+            self.deposit()
 
         elif(user==3):
-            self.Withdraw()
+            self.withdraw()
 
         elif(user==4):
             self.check()
