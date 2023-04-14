@@ -59,7 +59,7 @@ person=wedding()
 otherperson=wedding()
 chutiya=wedding()
 
-person.relation("siddharth","Garima",21)
+person.relation("siddharth","Singh",21)
 otherperson.relation("shivansh","Anshika",21)
 chutiya.relation("nirdesh","nagzii",28)
 chutiya.show()
