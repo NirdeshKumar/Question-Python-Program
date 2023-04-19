@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+body
+{
+    background-image:url("nature2.jpg");
+    background-size:cover;
+    position:relative;
+    height: 100vh;
+    background-position: center;
+    
+}
+.menu-bar
+{
+    background: rgba(154, 31, 31, 0.543);
+    text-align: center;
+}
+.menu-bar ul
+{
+    display:inline-flex;
+    list-style: none;
+}
+.menu-bar ul li
+{
+    padding: 15px;
+    margin: 12px;
+    width: 120px;    
+}
+.menu-bar ul li a
+{
+    color:whitesmoke;
+    text-decoration: none;
+}
+.active, .menu-bar ul li:hover
+{
+    background: brown;
+    border-radius: 12px;
+    
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: rgba(154, 31, 31, 0.543);
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li 
+{
+    
+    border-bottom: 1px dotted white;
+    padding: 10px;
+    width: 150px ;
+    background: transparent;
+    border-radius: 50;
+    text-align: left;
+
+}
+.active, .menu-bar ul li:hover .sub-menu-1 ul li:hover 
+{
+    background: brown;
+    border-radius: 12px;
+    
+}
+
+
